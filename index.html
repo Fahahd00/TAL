@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="تيم الليث - فريق متخصص في الاستشارات التقنية والحلول الرقمية المبتكرة">
+    <meta name="theme-color" content="#D4AF37">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>تيم الليث - استشارات تقنية وحلول رقمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Tajawal:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <h2 class="brand-name" data-en="Team Al-Laith" data-ar="تيم الليث">تيم الليث</h2>
+            </div>
+            <div class="loader-animation">
+                <div class="circle-loader">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <p class="loader-text" data-en="Preparing your experience..." data-ar="نجهز لك تجربة مميزة...">نجهز لك تجربة مميزة...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="logo/Screenshot 2026-01-05 211702.png" alt="TAL Logo" class="logo-icon">
+                        <div class="logo-text-group">
+                            <span class="logo-text" data-en="Team Al-Laith" data-ar="تيم الليث">تيم الليث</span>
+                            <span class="logo-subtitle" data-en="Technical Advancement Leaders" data-ar="قادة التقدم التقني">قادة التقدم التقني</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" data-en="Home" data-ar="الرئيسية">الرئيسية</a></li>
+                    <li><a href="#about" data-en="About" data-ar="عننا">عننا</a></li>
+                    <li><a href="#vision" data-en="Vision" data-ar="الرؤية والرسالة">الرؤية والرسالة</a></li>
+                    <li><a href="#services" data-en="Services" data-ar="الخدمات">الخدمات</a></li>
+                    <li><a href="#why-us" data-en="Why Us" data-ar="لماذا نحن">لماذا نحن</a></li>
+                    <li><a href="#team" data-en="Team" data-ar="الفريق">الفريق</a></li>
+                    <li><a href="#process" data-en="Process" data-ar="آلية العمل">آلية العمل</a></li>
+                    <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">تواصل معنا</a></li>
+                </ul>
+                <div class="controls-left">
+                    <button class="language-toggle" id="languageToggle" title="Toggle Language">
+                        <span class="lang-icon">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-en="Team Al-Laith" data-ar="تيم الليث">تيم الليث</h1>
+                    <p class="hero-subtitle" data-en="We specialize in technical consultations and innovative digital solutions" data-ar="نحن متخصصون في الاستشارات التقنية وتنفيذ الحلول الرقمية المبتكرة">نحن متخصصون في الاستشارات التقنية وتنفيذ الحلول الرقمية المبتكرة</p>
+                    <p class="hero-description fade-in-up" style="animation-delay: 0.2s;" data-en="An expert team combining experience and innovation to transform your vision into a digital reality that achieves your goals" data-ar="فريق متخصص يجمع بين الخبرة والابتكار لتحويل رؤيتك إلى واقع رقمي يحقق أهدافك">فريق متخصص يجمع بين الخبرة والابتكار لتحويل رؤيتك إلى واقع رقمي يحقق أهدافك</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-en="Start Your Project" data-ar="ابدأ مشروعك الآن">ابدأ مشروعك الآن</a>
+                        <a href="#about" class="btn btn-secondary" data-en="Learn More" data-ar="تعرف على المزيد">تعرف على المزيد</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Team Al-Laith" data-ar="عن تيم الليث">عن تيم الليث</h2>
+            <div class="tal-badge">
+                <span class="badge-text" data-en="Technical Advancement Leaders" data-ar="قادة التقدم التقني">قادة التقدم التقني</span>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Team Al-Laith is a specialized team providing comprehensive technical consulting and digital solutions. We began our journey with the goal of transforming bold ideas into effective and scalable digital products." data-ar="تيم الليث هو فريق متخصص في تقديم الاستشارات التقنية والحلول الرقمية الشاملة. بدأنا رحلتنا بهدف تحويل الأفكار الجريئة إلى منتجات رقمية فعّالة وقابلة للتطور.">تيم الليث هو فريق متخصص في تقديم الاستشارات التقنية والحلول الرقمية الشاملة. بدأنا رحلتنا بهدف تحويل الأفكار الجريئة إلى منتجات رقمية فعّالة وقابلة للتطور.</p>
+                    
+                    <p data-en="We believe that technology is a powerful tool for achieving growth and development. We strive to provide services that exceed expectations and add real value to our clients." data-ar="نؤمن بأن التكنولوجيا هي أداة قوية لتحقيق النمو والتطور، ونسعى جاهدين لتقديم خدمات تتجاوز التوقعات وتضيف قيمة حقيقية لعملائنا.">نؤمن بأن التكنولوجيا هي أداة قوية لتحقيق النمو والتطور، ونسعى جاهدين لتقديم خدمات تتجاوز التوقعات وتضيف قيمة حقيقية لعملائنا.</p>
+                    
+                    <p data-en="Our team consists of experts and specialists in various fields including software development, system design, robotics, artificial intelligence, and digital consulting. We combine technical expertise with strategic vision to deliver integrated solutions that meet our clients' needs and exceed their expectations." data-ar="يتكون فريقنا من خبراء ومتخصصين في مختلف المجالات بما في ذلك تطوير البرمجيات، تصميم الأنظمة، الروبوتات، الذكاء الاصطناعي، والاستشارات الرقمية. نجمع بين الخبرة التقنية والرؤية الاستراتيجية لتقديم حلول متكاملة تلبي احتياجات عملائنا وتتجاوز توقعاتهم.">يتكون فريقنا من خبراء ومتخصصين في مختلف المجالات بما في ذلك تطوير البرمجيات، تصميم الأنظمة، الروبوتات، الذكاء الاصطناعي، والاستشارات الرقمية. نجمع بين الخبرة التقنية والرؤية الاستراتيجية لتقديم حلول متكاملة تلبي احتياجات عملائنا وتتجاوز توقعاتهم.</p>
+                    
+                    <p data-en="Since our establishment, we have successfully completed numerous projects across various sectors, helping our clients achieve digital transformation and improve their operational efficiency. We are committed to staying updated with the latest technologies and global best practices to ensure we deliver cutting-edge solutions." data-ar="منذ تأسيسنا، نجحنا في إنجاز العديد من المشاريع عبر قطاعات مختلفة، مساعدين عملاءنا على تحقيق التحول الرقمي وتحسين كفاءتهم التشغيلية. نحن ملتزمون بمواكبة أحدث التقنيات وأفضل الممارسات العالمية لضمان تقديم حلول متطورة.">منذ تأسيسنا، نجحنا في إنجاز العديد من المشاريع عبر قطاعات مختلفة، مساعدين عملاءنا على تحقيق التحول الرقمي وتحسين كفاءتهم التشغيلية. نحن ملتزمون بمواكبة أحدث التقنيات وأفضل الممارسات العالمية لضمان تقديم حلول متطورة.</p>
+                </div>
+                <div class="about-values">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 data-en="Innovation" data-ar="الابتكار">الابتكار</h3>
+                        <p data-en="We constantly seek creative solutions that push boundaries and transform ideas into reality." data-ar="نسعى دائماً لإيجاد حلول إبداعية تدفع الحدود وتحول الأفكار إلى واقع ملموس.">نسعى دائماً لإيجاد حلول إبداعية تدفع الحدود وتحول الأفكار إلى واقع ملموس.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 data-en="Quality" data-ar="الجودة">الجودة</h3>
+                        <p data-en="We deliver work that meets the highest standards with attention to every detail." data-ar="نقدم أعمالاً تلبي أعلى المعايير مع الاهتمام بكل التفاصيل الدقيقة.">نقدم أعمالاً تلبي أعلى المعايير مع الاهتمام بكل التفاصيل الدقيقة.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 data-en="Partnership" data-ar="الشراكة">الشراكة</h3>
+                        <p data-en="We build long-term relationships based on trust and mutual success." data-ar="نبني علاقات طويلة الأمد مبنية على الثقة والنجاح المشترك.">نبني علاقات طويلة الأمد مبنية على الثقة والنجاح المشترك.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <h2 class="section-title" data-en="Vision & Mission" data-ar="الرؤية والرسالة">الرؤية والرسالة</h2>
+            <div class="vision-grid">
+                <div class="vision-card">
+                    <div class="vision-card-inner">
+                        <div class="vision-card-front">
+                            <div class="vision-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3 data-en="Our Vision" data-ar="رؤيتنا">رؤيتنا</h3>
+                        </div>
+                        <div class="vision-card-back">
+                            <h3 data-en="Our Vision" data-ar="رؤيتنا">رؤيتنا</h3>
+                            <p data-en="To be the trusted technical partner that Arab companies choose to achieve digital transformation and sustainable growth." data-ar="أن نكون الشريك التقني الموثوق الذي تختاره الشركات العربية لتحقيق التحول الرقمي وتحقيق نموها المستدام.">أن نكون الشريك التقني الموثوق الذي تختاره الشركات العربية لتحقيق التحول الرقمي وتحقيق نموها المستدام.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-card-inner">
+                        <div class="vision-card-front">
+                            <div class="vision-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 data-en="Our Mission" data-ar="رسالتنا">رسالتنا</h3>
+                        </div>
+                        <div class="vision-card-back">
+                            <h3 data-en="Our Mission" data-ar="رسالتنا">رسالتنا</h3>
+                            <p data-en="To provide distinguished technical consulting and digital solutions that combine innovation and quality, enabling our clients to achieve their digital goals effectively." data-ar="تقديم استشارات وحلول تقنية متميزة تجمع بين الابتكار والجودة، لتمكين عملائنا من تحقيق أهدافهم الرقمية بفعالية.">تقديم استشارات وحلول تقنية متميزة تجمع بين الابتكار والجودة، لتمكين عملائنا من تحقيق أهدافهم الرقمية بفعالية.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-card-inner">
+                        <div class="vision-card-front">
+                            <div class="vision-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <h3 data-en="Our Values" data-ar="قيمنا">قيمنا</h3>
+                        </div>
+                        <div class="vision-card-back">
+                            <h3 data-en="Our Values" data-ar="قيمنا">قيمنا</h3>
+                            <p data-en="Professionalism, innovation, transparency, and our commitment to client satisfaction are the foundation of our work in every project we undertake." data-ar="الاحترافية، الابتكار، الشفافية، والتزامنا برضا العميل هي أساس عملنا في كل مشروع نتولاه.">الاحترافية، الابتكار، الشفافية، والتزامنا برضا العميل هي أساس عملنا في كل مشروع نتولاه.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Services" data-ar="خدماتنا">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-en="Application Development" data-ar="تطوير التطبيقات">تطوير التطبيقات</h3>
+                    <p data-en="Development of professional web and mobile applications that meet your needs with the highest standards of quality and performance." data-ar="تطوير تطبيقات ويب وتطبيقات جوال احترافية تلبي احتياجاتك بأعلى مستويات الجودة والأداء.">تطوير تطبيقات ويب وتطبيقات جوال احترافية تلبي احتياجاتك بأعلى مستويات الجودة والأداء.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-en="Technical Consulting" data-ar="الاستشارات التقنية">الاستشارات التقنية</h3>
+                    <p data-en="Specialized consulting in choosing appropriate technologies and digital strategies to achieve your business goals." data-ar="استشارات متخصصة في اختيار التقنيات المناسبة والاستراتيجيات الرقمية لتحقيق أهداف عملك.">استشارات متخصصة في اختيار التقنيات المناسبة والاستراتيجيات الرقمية لتحقيق أهداف عملك.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-en="Website & App Design" data-ar="تصميم المواقع والتطبيقات">تصميم المواقع </h3>
+                    <p data-en="Professional and attractive designs that balance beauty and functionality to provide an exceptional user experience." data-ar="تصاميم احترافية وجذابة توازن بين الجمال والوظيفة لتقديم تجربة مستخدم استثنائية.">تصاميم احترافية وجذابة توازن بين الجمال والوظيفة لتقديم تجربة مستخدم استثنائية.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 data-en="Data & System Management" data-ar="إدارة البيانات والأنظمة">إدارة البيانات والأنظمة</h3>
+                    <p data-en="Advanced solutions for data and system management with security and efficiency to ensure business continuity." data-ar="حلول متقدمة لإدارة البيانات والأنظمة بأمان وكفاءة لضمان استمرارية عملك.">حلول متقدمة لإدارة البيانات والأنظمة بأمان وكفاءة لضمان استمرارية عملك.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 data-en="Robotics & Programming" data-ar="الروبوتات وبرمجتها">الروبوتات وبرمجتها</h3>
+                    <p data-en="Design and programming of robots and automated systems to improve efficiency and achieve technological innovation." data-ar="تصميم وبرمجة الروبوتات والأنظمة الآلية لتحسين الكفاءة وتحقيق الابتكار التقني.">تصميم وبرمجة الروبوتات والأنظمة الآلية لتحسين الكفاءة وتحقيق الابتكار التقني.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 data-en="AI & Automation" data-ar="الذكاء الاصطناعي والأتمتة">الذكاء الاصطناعي والأتمتة</h3>
+                    <p data-en="Intelligent solutions using artificial intelligence to automate processes and improve decision-making." data-ar="حلول ذكية باستخدام الذكاء الاصطناعي لأتمتة العمليات وتحسين اتخاذ القرارات.">حلول ذكية باستخدام الذكاء الاصطناعي لأتمتة العمليات وتحسين اتخاذ القرارات.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Choose Team Al-Laith" data-ar="لماذا تختار تيم الليث">لماذا تختار تيم الليث</h2>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <div class="why-us-number">01</div>
+                    <h3 data-en="Specialized Team" data-ar="فريق متخصص">فريق متخصص</h3>
+                    <p data-en="A group of experts and specialists in various fields of technology and development" data-ar="مجموعة من الخبراء والمتخصصين في مختلف مجالات التكنولوجيا والتطوير">مجموعة من الخبراء والمتخصصين في مختلف مجالات التكنولوجيا والتطوير</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-number">02</div>
+                    <h3 data-en="Modern Technologies" data-ar="تقنيات حديثة">تقنيات حديثة</h3>
+                    <p data-en="Using the latest technologies and tools to ensure fast and effective solutions" data-ar="استخدام أحدث التقنيات والأدوات لضمان حلول سريعة وفعّالة">استخدام أحدث التقنيات والأدوات لضمان حلول سريعة وفعّالة</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-number">03</div>
+                    <h3 data-en="Timely Delivery" data-ar="تسليم في الموعد">تسليم في الموعد</h3>
+                    <p data-en="Full commitment to agreed timelines and deadlines" data-ar="التزام كامل بالجداول الزمنية والمواعيد النهائية المتفق عليها">التزام كامل بالجداول الزمنية والمواعيد النهائية المتفق عليها</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-number">04</div>
+                    <h3 data-en="Continuous Support" data-ar="دعم مستمر">دعم مستمر</h3>
+                    <p data-en="Precise follow-up, regular updates and continuous developments after project completion" data-ar="متابعة دقيقة وتحديثات دورية وتطويرات مستمرة بعد الانتهاء من المشروع">متابعة دقيقة وتحديثات دورية وتطويرات مستمرة بعد الانتهاء من المشروع</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-number">05</div>
+                    <h3 data-en="Competitive Prices" data-ar="أسعار تنافسية">أسعار تنافسية</h3>
+                    <p data-en="Flexible offers and competitive prices that suit the needs and budgets of all companies" data-ar="عروض مرنة وأسعار متنافسة تناسب احتياجات وميزانيات جميع الشركات">عروض مرنة وأسعار متنافسة تناسب احتياجات وميزانيات جميع الشركات</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-number">06</div>
+                    <h3 data-en="Customer Satisfaction" data-ar="رضا العميل">رضا العميل</h3>
+                    <p data-en="Our main priority is to achieve your complete satisfaction with the quality of our work and services" data-ar="أولويتنا الأساسية هي تحقيق رضاك الكامل عن جودة عملنا والخدمة المقدمة">أولويتنا الأساسية هي تحقيق رضاك الكامل عن جودة عملنا والخدمة المقدمة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Team" data-ar="فريقنا">فريقنا</h2>
+
+            <!-- Founders Section -->
+            <div class="team-section">
+                <h3 class="subsection-title" data-en="Founders" data-ar="المؤسسون">المؤسسون</h3>
+                
+                <!-- Founders Toggle Button -->
+                <div class="founders-toggle-container">
+                    <button class="founders-toggle-btn" id="foundersToggleBtn">
+                        <div class="toggle-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <span data-en="Meet Our Founders" data-ar="تعرف على مؤسسينا">تعرف على مؤسسينا</span>
+                        <i class="fas fa-chevron-down toggle-arrow"></i>
+                    </button>
+                </div>
+
+                <!-- Founders Cards (Hidden by default) -->
+                <div class="founders-cards-wrapper" id="foundersCardsWrapper">
+                    <div class="founders-cards">
+                        <div class="simple-founder-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="founder-circle">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4 data-en="Fahad Bandar" data-ar="فهد بندر">فهد بندر</h4>
+                            <p class="founder-title" data-en="Co-Founder" data-ar="مؤسس مشارك">مؤسس </p>
+                        </div>
+
+                        <div class="simple-founder-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="founder-circle">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4 data-en="Jaser Ziyad" data-ar="جاسر زياد">جاسر زياد</h4>
+                            <p class="founder-title" data-en="Co-Founder" data-ar="مؤسس مشارك">مؤسس </p>
+                        </div>
+
+                        <div class="simple-founder-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="founder-circle">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4 data-en="Yazeed Ahmed" data-ar="يزيد أحمد">يزيد أحمد</h4>
+                            <p class="founder-title" data-en="Co-Founder" data-ar="مؤسس مشارك">مؤسس </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connection Line -->
+            <div class="team-hierarchy-connector">
+                <div class="connector-line"></div>
+                <div class="connector-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!-- Team Members Section -->
+            <div class="team-section team-members-section">
+                <h3 class="subsection-title" data-en="Team Members" data-ar="أعضاء الفريق">أعضاء الفريق</h3>
+                
+                <!-- Team Members Toggle Button -->
+                <div class="founders-toggle-container">
+                    <button class="founders-toggle-btn" id="teamMembersToggleBtn">
+                        <div class="toggle-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <span data-en="Meet Our Team" data-ar="تعرف على فريقنا">تعرف على فريقنا</span>
+                        <i class="fas fa-chevron-down toggle-arrow"></i>
+                    </button>
+                </div>
+
+                <!-- Team Members Cards (Hidden by default) -->
+                <div class="founders-cards-wrapper" id="teamMembersCardsWrapper">
+                    <div class="founders-cards team-members-cards">
+                        <div class="simple-founder-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="founder-circle">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4 data-en="Abdulilah Ahmed" data-ar="عبدالإله أحمد"> متاح</h4>
+                            <p class="founder-title" data-en="Mechatronics Specialist" data-ar="متخصص ميكاترونكس"> التخصص</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title" data-en="How We Work" data-ar="آلية عملنا">آلية عملنا</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-en="Initial Consultation" data-ar="استشارة ابتدائية">استشارة ابتدائية</h3>
+                    <p data-en="We listen to your needs and goals and deeply understand your project requirements" data-ar="نستمع إلى احتياجاتك وأهدافك ونفهم متطلبات مشروعك بعمق">نستمع إلى احتياجاتك وأهدافك ونفهم متطلبات مشروعك بعمق</p>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-en="Planning & Design" data-ar="التخطيط والتصميم">التخطيط والتصميم</h3>
+                    <p data-en="We develop a comprehensive plan and design a complete solution for the proposed solution" data-ar="نقوم بتطوير خطة شاملة وتصميم شامل للحل المقترح">نقوم بتطوير خطة شاملة وتصميم شامل للحل المقترح</p>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-en="Development & Implementation" data-ar="التطوير والتنفيذ">التطوير والتنفيذ</h3>
+                    <p data-en="We implement the project with the highest standards of quality and professionalism" data-ar="ننفذ المشروع بأعلى مستويات الجودة والاحترافية">ننفذ المشروع بأعلى مستويات الجودة والاحترافية</p>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-en="Testing & Improvement" data-ar="الاختبار والتحسين">الاختبار والتحسين</h3>
+                    <p data-en="We conduct comprehensive tests and apply required improvements" data-ar="نجري اختبارات شاملة ونطبق التحسينات المطلوبة">نجري اختبارات شاملة ونطبق التحسينات المطلوبة</p>
+                </div>
+                <div class="step-divider"></div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3 data-en="Delivery & Support" data-ar="التسليم والدعم">التسليم والدعم</h3>
+                    <p data-en="We deliver the project and provide full support and continuous follow-up" data-ar="نسلم المشروع ونقدم الدعم الكامل والمتابعة المستمرة">نسلم المشروع ونقدم الدعم الكامل والمتابعة المستمرة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Us" data-ar="تواصل معنا">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Phone Number" data-ar="رقم الهاتف">رقم الهاتف</h3>
+                            <p>055 704 0229</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Email" data-ar="البريد الإلكتروني">البريد الإلكتروني</h3>
+                            <p>.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Location" data-ar="الموقع">الموقع</h3>
+                            <p data-en="Makkah, Kingdom of Saudi Arabia" data-ar="مكة المكرمة، المملكة العربية السعودية">مكة المكرمة، المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="اسمك الكامل" data-en-placeholder="Your Full Name" data-ar-placeholder="اسمك الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="موضوع الرسالة" data-en-placeholder="Message Subject" data-ar-placeholder="موضوع الرسالة" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="رسالتك" data-en-placeholder="Your Message" data-ar-placeholder="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-en="Send via WhatsApp" data-ar="إرسال عبر واتساب">إرسال عبر واتساب</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-en="Team Al-Laith" data-ar="تيم الليث">تيم الليث</h4>
+                    <p data-en="A specialized team in technical consulting and innovative digital solutions" data-ar="فريق متخصص في الاستشارات التقنية والحلول الرقمية المبتكرة">فريق متخصص في الاستشارات التقنية والحلول الرقمية المبتكرة</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-ar="الروابط السريعة">الروابط السريعة</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-ar="الرئيسية">الرئيسية</a></li>
+                        <li><a href="#about" data-en="About" data-ar="عننا">عننا</a></li>
+                        <li><a href="#services" data-en="Services" data-ar="الخدمات">الخدمات</a></li>
+                        <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Our Services" data-ar="خدماتنا">خدماتنا</h4>
+                    <ul>
+                        <li><a href="#services" data-en="App Development" data-ar="تطوير التطبيقات">تطوير التطبيقات</a></li>
+                        <li><a href="#services" data-en="Technical Consulting" data-ar="الاستشارات التقنية">الاستشارات التقنية</a></li>
+                        <li><a href="#services" data-en="Web Design" data-ar="تصميم المواقع">تصميم المواقع</a></li>
+                        <li><a href="#services" data-en="Cybersecurity" data-ar="الأمان السيبراني">الأمان السيبراني</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2024 Team Al-Laith. All rights reserved." data-ar="&copy; 2024 تيم الليث. جميع الحقوق محفوظة.">&copy; 2024 تيم الليث. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
